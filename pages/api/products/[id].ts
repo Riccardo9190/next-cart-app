@@ -1,4 +1,4 @@
-// pages/api/products/[id]
+// api/products/[id]
 
 import { NextApiRequest, NextApiResponse } from "next";
 import products from "../../../database.json";
