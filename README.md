@@ -1,38 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Cart App
 
-## Getting Started
+A responsive shopping cart app built with Next and Bootstrap, stored in Vercel. 
 
-First, run the development server:
+### Technologies Used:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Next
+- Bootstrap
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### To Run Locally
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Clone this repository with ```git clone https://github.com/Riccardo9190/next-cart-app.git```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Access the app folder with ```cd next-cart-app```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Install all dependencies with ```npm install```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Create a file named '.env' on the root of the project with ```touch .env```
 
-## Learn More
+- Set the environment variable for the local API to have the same URL as the application (usually, localhost:3000): 
 
-To learn more about Next.js, take a look at the following resources:
+  ```echo "NEXT_PUBLIC_APIURL=http://localhost:3000" > .env```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Run the app with ```npm run dev``` and open the URL ```localhost:3000```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Live Version
 
-## Deploy on Vercel
+You can check the live version here: https://next-cart-app-gamma.vercel.app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<hr/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Project Images
+
+### - Home screen
+<img src="https://github.com/Riccardo9190/next-cart-app/blob/main/public/home.png" /> 
+
+<hr/>
+
+### - Products screen
+<img src="https://github.com/Riccardo9190/next-cart-app/blob/main/public/products.png" />ㅤ
+
+<hr/>
+
+### - Product screen
+<img src="https://github.com/Riccardo9190/next-cart-app/blob/main/public/product.png" />ㅤ
+
+<hr/>
+
+### - Cart screen
+<img src="https://github.com/Riccardo9190/next-cart-app/blob/main/public/cart.png" />ㅤ
