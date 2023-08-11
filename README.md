@@ -1,6 +1,6 @@
 # Next Cart App
 
-A responsive shopping cart app built with Next and Bootstrap, stored in Vercel. 
+Responsive shopping cart app built with Next and Bootstrap, stored in Vercel. 
 
 ### Technologies Used:
 
@@ -15,11 +15,11 @@ A responsive shopping cart app built with Next and Bootstrap, stored in Vercel.
 
 - Install all dependencies with ```npm install```
 
-- Create a file named '.env' on the root of the project with ```touch .env```
+- Set the environment variable for the local API to have the same URL as the application: 
 
-- Set the environment variable for the local API to have the same URL as the application (usually, localhost:3000): 
-
-  ```echo "NEXT_PUBLIC_APIURL=http://localhost:3000" > .env```
+```shell
+echo "NEXT_PUBLIC_APIURL=http://localhost:3000" > .env
+```
 
 - Run the app with ```npm run dev``` and open the URL ```localhost:3000```
 
